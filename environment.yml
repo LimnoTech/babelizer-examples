@@ -1,0 +1,26 @@
+# A conda environment file for babelizer examples for all languages
+name: wrap-all
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - make
+  - cmake
+  - pkg-config
+  - c-compiler
+  - bmi-c
+  # - fortran-compiler
+  # - bmi-fortran
+  # - babelizer  # installs latest release
+  - bmi-tester
+  - pymt>=1.3
+  - gimli.units=0.3.1 # Before reorg (https://github.com/mcflugen/gimli/pull/18) 
+                      # to prevent import error with pymt=1.3.1
+
+  # package management
+  - conda
+  - conda-libmamba-solver
+  # PIP install requirements only if it is not  possible with conda
+  - pip
+  - pip:
+    - git+https://github.com/csdms/babelizer.git@develop  # installs head of branch
