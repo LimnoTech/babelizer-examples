@@ -149,3 +149,5 @@ cython_debug/
 # Ignore clones of other repos
 example-c/bmi-example-c/
 example-f/bmi-example-fortran/
+
+example-c/pymt_heatc/
