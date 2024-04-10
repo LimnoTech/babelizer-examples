@@ -1,0 +1,14 @@
+# A conda environment file for the babelizer C example
+name: wrap-c
+channels:
+  - conda-forge
+dependencies:
+  - python=3
+  - make
+  - cmake
+  - pkg-config
+  - c-compiler
+  - bmi-c
+  - babelizer
+  - bmi-tester
+  - pymt>=1.3
