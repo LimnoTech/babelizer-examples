@@ -26,4 +26,4 @@ dependencies:
   - pip
   - pip:
     # - -e git+https://github.com/csdms/babelizer.git@develop  # installs head of branch
-    - -e git+https://github.com/csdms/babelizer.git@mdpiper/add-cxx-example
+    - git+https://github.com/csdms/babelizer.git#111ed1b0f62e0a20ba373a465914ccbb5b17adb6
