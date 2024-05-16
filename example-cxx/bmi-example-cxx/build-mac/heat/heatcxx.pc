@@ -1,0 +1,4 @@
+Name: HeatCXX
+Description: 2D Heat Equation
+Version: 2.1.2
+Cflags: -I/Users/aaufdenkampe/miniconda3/envs/wrap-all/include

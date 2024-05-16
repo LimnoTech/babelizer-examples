@@ -1,0 +1,7 @@
+/Users/aaufdenkampe/miniconda3/envs/wrap-all/bin/run_bmiheatcxx
+/Users/aaufdenkampe/miniconda3/envs/wrap-all/lib/libheatcxx.dylib
+/Users/aaufdenkampe/miniconda3/envs/wrap-all/lib/libbmiheatcxx.dylib
+/Users/aaufdenkampe/miniconda3/envs/wrap-all/include/bmi_heat.hxx
+/Users/aaufdenkampe/miniconda3/envs/wrap-all/include/heat.hxx
+/Users/aaufdenkampe/miniconda3/envs/wrap-all/lib/pkgconfig/heatcxx.pc
+/Users/aaufdenkampe/miniconda3/envs/wrap-all/lib/pkgconfig/bmiheatcxx.pc

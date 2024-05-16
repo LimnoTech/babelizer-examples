@@ -1,0 +1,5 @@
+Name: BmiHeatCXX
+Description: BMI for HeatCXX model
+Version: 2.1.2
+Cflags: -I/Users/aaufdenkampe/miniconda3/envs/wrap-all/include
+Libs: -L/Users/aaufdenkampe/miniconda3/envs/wrap-all/lib -lbmiheatcxx
