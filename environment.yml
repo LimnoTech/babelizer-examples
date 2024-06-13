@@ -5,7 +5,7 @@ channels:
   - nodefaults # Speeds solving env, by limiting the number of options
 dependencies:
   # From examples in https://babelizer.readthedocs.io/en/mdpiper-add-cxx-example/
-  - python>=3.10
+  - python<3.12 # Regex errors in the babelize init command related to Python 3.12
   - make
   - cmake
   - pkg-config
