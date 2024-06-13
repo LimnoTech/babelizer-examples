@@ -26,6 +26,7 @@ dependencies:
 
   # package management
   - conda
+  - conda-build
   - conda-libmamba-solver
   # PIP install requirements only if it is not  possible with conda
   - pip
